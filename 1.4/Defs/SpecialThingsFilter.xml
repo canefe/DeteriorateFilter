@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <SpecialThingFilterDef>
+    <defName>AllowDetThings</defName>
+    <label>Allow deterioratable</label>
+    <description>Allow things that can deteriorate.</description>
+    <parentCategory>Root</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowDetThings</saveKey>
+    <workerClass>Deteriorated.SpecialThingFilterWorker_AllowDetThings</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotDetThings</defName>
+    <label>Allow non-deterioratable</label>
+    <description>Allow things that can't deteriorate.</description>
+    <parentCategory>Root</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowNotDetThings</saveKey>
+    <workerClass>Deteriorated.SpecialThingFilterWorker_AllowNotDetThings</workerClass>
+  </SpecialThingFilterDef>
+
+</Defs>
