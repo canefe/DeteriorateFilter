@@ -4,3 +4,5 @@
 # /*/Assemblies/*.pdb
 # /.vscode
 # /Source
+.vscode/.vs/.vscode/xs/project-cache/mod-Debug.json
+.vscode/.vs/.vscode/xs/project-cache/mod-Release.json
