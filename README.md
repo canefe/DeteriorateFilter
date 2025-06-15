@@ -1,23 +1,20 @@
-# Rimworld Mod Template
+# <div align=center>Deteriorable Filter
 
-This template is created for Rimworld modders who use [Visual Studio Code](https://code.visualstudio.com/) instead of Visual Studio IDE.
 
-* __No virtual folders__. Easy to manage and edit both `xml` and `cs` files.
 
-* __Lightweight__. Visual Studio Code only takes up to 200 MB of storage space and is lighting fast.
+<div align="center">
+<a href="https://github.com/canefe/DeteriorateFilter/issues"><img src="https://img.shields.io/github/issues/canefe/DeteriorateFilter?style=for-the-badge" alt="GitHub issues"></a> <a href="https://github.com/canefe/DeteriorateFilter/stargazers"><img src="https://img.shields.io/github/stars/canefe/DeteriorateFilter?style=for-the-badge" alt="GitHub stars"></a> <a href="#"><img src="https://img.shields.io/badge/RIMWORLD-1.6-orange?style=for-the-badge" alt="RimWorld 1.6"></a>
+</div>
 
-* __Automated__. Integrated build, scripting and management tools to perform common tasks making everyday workflows faster.
 
-* __Customizable__. Almost every feature can be changed, whenever it is editor UI, keybinds or folder structure.
+<p align="center">
+<img src="https://github.com/canefe/DeteriorateFilter/blob/master/About/Preview.png?raw=true"/>
 
-## Setup
-1. Download and install [.NET Core SDK](https://dotnet.microsoft.com/download/dotnet-core) and [.Net Framework 4.8 Developer Pack](https://dotnet.microsoft.com/download/dotnet-framework/net48). This step can be skipped if you already have required C# packages from Visual Studio IDE.
-2. Install [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp).
-3. Clone, pull or download this template into your Rimworld `Mods` folder.
+A Rimworld mod that allows quick sorting of perishable and non-perishable items early in the game, preserving indoor space for valuable deteriorating items.
 
-## Additional notes
-* By pressing `F5` key VS Code will perform 2 operations: build assembly file and launch Rimworld executable. 
-* All intermediate files are kept inside `.vscode` folder.
-* For XML only modders remove preLaunchTask line from `.vscode/launch.json` file.
-* Modify `.vscode/mod.csproj` and `About/About.xml` according to your needs.
- 
+Introduces two stockpile filters for items:
+
+Items that can deteriorate.
+Items that cannot deteriorate.
+</p>
+</div>
