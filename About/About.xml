@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<packageId>cometopapa.deteriorated</packageId>
-	<name>Deterioratable Filter</name>
+	<name>Deteriorable Filter</name>
 	<author>cometopapa</author>
 	<supportedVersions>
 		<li>1.4</li>
@@ -22,10 +22,10 @@
 		<!-- <li>username.modname</li> -->
 	</incompatibleWith>
 
-	<description>Enables to quickly sort deterioratable items and non-deteriorated items in the
+	<description>Enables to quickly sort deteriorable items and non-deteriorated items in the
 		early game to preserve space indoors for valuable deteriorated items.
 
-		Adds two stockpile filters for deterioratable items.
+		Adds two stockpile filters for deteriorable items.
 
 		* Allow things that can deteriorate.
 		* Allow things that can't deteriorate.</description>
